@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-export function HelloHook() {
+export function HelloHooks() {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -8,9 +8,9 @@ export function HelloHook() {
   })
 
   return (
-    <div className="ml3 pa3 bg-black-80 white sans-serif br2 w5">
+    <div className="ml3-ns pa3 bg-black-80 white sans-serif br2 w5">
       <div className="">Hooks!</div>
-      <div className="bg-black-10 fv w3 cv mt2 pv2">
+      <div className="bg-black-10 f jb w4 cv mt2 pv2">
         <div
           className="f2 code bg-white-10 usn pa1 br-pill pointer hover-bg-white-20"
           onClick={() => setCount(count - 1)}
