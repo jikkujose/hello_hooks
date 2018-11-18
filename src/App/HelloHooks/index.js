@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react"
+import { useDocumentTitle } from "./hooks"
 
 export function HelloHooks() {
   const [count, setCount] = useState(0)
-
-  useEffect(() => {
-    document.title = count
-  })
+  useDocumentTitle(count)
 
   return (
     <div className="ml3-ns pa3 bg-black-80 white sans-serif br2 w5">
