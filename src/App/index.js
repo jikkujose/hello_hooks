@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { HelloSVG } from "./HelloSVG"
 import { HelloSuspense } from "./HelloSuspense"
+import { HelloHook } from "./HelloHook"
 
 export class App extends Component {
   render() {
@@ -13,6 +14,7 @@ export class App extends Component {
           <div className="pa3 f">
             <HelloSVG />
             <HelloSuspense />
+            <HelloHook />
           </div>
         </div>
       </div>
