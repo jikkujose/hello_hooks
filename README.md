@@ -10,3 +10,5 @@ A project to try out the new features introduced in React 16.6 & above!
 - [x] `Suspense`
 - [ ] `memo`
 - [ ] `contextType`
+- [ ] `react-cache`
+- [ ] `Scheduler`
