@@ -1,10 +1,14 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 export function HelloHook() {
   const [count, setCount] = useState(0)
 
+  useEffect(() => {
+    document.title = count
+  })
+
   return (
-    <div className="ml2 pa3 bg-black-80 white sans-serif br2">
+    <div className="ml3 pa3 bg-black-80 white sans-serif br2 w5">
       <div className="">Hooks!</div>
       <div className="bg-black-10 fv w3 cv mt2 pv2">
         <div
