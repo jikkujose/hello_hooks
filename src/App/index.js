@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { HelloSVG } from "./HelloSVG"
 import { HelloSuspense } from "./HelloSuspense"
 import { HelloHooks } from "./HelloHooks"
+import HelloMemo from "./HelloMemo"
 
 export class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export class App extends Component {
             <HelloSVG />
             <HelloSuspense />
             <HelloHooks />
+            <HelloMemo name="Jikku" />
           </div>
         </div>
       </div>
